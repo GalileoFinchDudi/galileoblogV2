@@ -5,7 +5,7 @@ category: "yum"
 cover: ishan-seefromthesky-618625-unsplash.jpg
 ---
 
-本周我尝试正在公司搭建gitlab，根据[官方文档](https://about.gitlab.com/install/#centos-7)流程操作，发下下载yum时报错。如下。
+本周我尝试在公司搭建gitlab，根据[官方文档](https://about.gitlab.com/install/#centos-7)流程操作，发下下载yum时报错。如下。
 
 ![error](er20181110215014.png)
 

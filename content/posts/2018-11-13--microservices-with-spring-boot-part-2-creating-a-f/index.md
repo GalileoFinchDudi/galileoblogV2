@@ -1,15 +1,10 @@
 ---
 title: Spring Boot的微服务 part2
 subTitle: 使用Spring Boot、 Spring Cloud搭建微服务架子 第二节
+author: Galileo Finch
 category: "microservice"
 cover: rawpixel-678089-unsplash.jpg
 ---
-
-> 参考：
->
-> https://dzone.com/articles/microservices-with-spring-boot-part-2-creating-a-f
->
->http://tengj.top/categories/Spring-Boot%E5%B9%B2%E8%B4%A7%E7%B3%BB%E5%88%97/
 
 # Spring Boot的微服务 part2
 
@@ -143,17 +138,17 @@ public interface ExchangeValueRepository extends
 ```java
 @RestController
 public class ForexController {
-  
+
   @Autowired
   private Environment environment;
-  
+
   @Autowired
   private ExchangeValueRepository repository;
-  
+
   @GetMapping("/currency-exchange/from/{from}/to/{to}")
   public ExchangeValue retrieveExchangeValue
     (@PathVariable String from, @PathVariable String to){
-    ExchangeValue exchangeValue = 
+    ExchangeValue exchangeValue =
         repository.findByFromAndTo(from, to);
     exchangeValue.setPort(
         Integer.parseInt(environment.getProperty("local.server.port")));
@@ -231,3 +226,9 @@ values(10003,'AUD','INR',25,0);
 ```
 
 至此我们得到在表里对应的数据，已经json串返回值。
+
+> 参考：
+>
+> [https://dzone.com/articles/](https://dzone.com/articles/microservices-with-spring-boot-part-2-creating-a-f)
+>
+> [http://tengj.top/categories/](http://tengj.top/categories/Spring-Boot%E5%B9%B2%E8%B4%A7%E7%B3%BB%E5%88%97/)

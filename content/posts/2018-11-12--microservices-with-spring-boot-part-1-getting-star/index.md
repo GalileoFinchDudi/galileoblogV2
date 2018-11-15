@@ -1,15 +1,10 @@
 ---
 title: Spring Boot的微服务 part1
 subTitle: 使用Spring Boot、 Spring Cloud搭建微服务架子 第一节
+author: Galileo Finch
 category: "microservice"
 cover: daniel-kainz-55304-unsplash.jpg
 ---
-
-> 参考：
->
-> https://dzone.com/articles/microservices-with-spring-boot-part-1-getting-star
->
->https://aws.amazon.com/microservices/
 
 # Spring Boot的微服务 part1 入门
 
@@ -215,3 +210,9 @@ Spring Cloud为您的微服务提供云支持解决方案。它利用并构建�
 - 创建CCS - 货币转换服务 - 我们将创建一个简单的rest服务来调用FS
 - 使用功能区进行负载平衡。
 - 实施Eureka命名服务并通过Eureka连接FS和CCS。
+
+> 参考：
+>
+> [https://dzone.com/articles/](https://dzone.com/articles/microservices-with-spring-boot-part-1-getting-star)
+>
+> [https://aws.amazon.com/](https://aws.amazon.com/microservices/)

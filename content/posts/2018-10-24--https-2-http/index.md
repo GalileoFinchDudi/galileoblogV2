@@ -1,6 +1,7 @@
 ---
 title: nginx https tomcat redirect 成 http 引发400错误
 subTitle: nginx https tomcat redirect 成 http
+author: Galileo Finch
 cover: eberhard-grossgasteiger-1115357-unsplash-cover.png
 ---
 
@@ -28,7 +29,7 @@ cover: eberhard-grossgasteiger-1115357-unsplash-cover.png
 
 在servlet中使用RequestDispatcher的forward方法，它与sendRedirect的主要区别在于forward相当于一次请求，然后服务器端内部，以方法调用的方式转到目标地址。写法如下：
 
-// 跳转到登录页面         
+// 跳转到登录页面
 
 ![img](./picture3.png)
 

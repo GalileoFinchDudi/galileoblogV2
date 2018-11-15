@@ -1,6 +1,7 @@
 ---
 title: ARTS 2
 subTitle: arts
+author: Galileo Finch
 category: "arts"
 cover: sai-kiran-anagani-61187-unsplash.jpg
 ---
@@ -45,7 +46,7 @@ gridNew = [ [8, 4, 8, 7],
 
 ```java
 public int maxIncreaseKeepingSkyline(int[][] grid) {
-  
+
   int N = grid.length;
   int[] rowMaxes = new int[N];
   int[] colMaxes = new int[N];

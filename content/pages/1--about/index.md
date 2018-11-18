@@ -3,7 +3,7 @@ title: About
 menuTitle: About
 ---
 
-Hello, My name is **Galileo Finch**.
+Hey, I'm **Galileo Finch**.
 这个blog我将记录我踩过的坑，以及我目前所坚持的事情。
 
 # 每日英语、资讯分享

@@ -13,7 +13,7 @@ cover: rawpixel-594848-unsplash.jpg
 
 ELK 是 Elasticsearch、Logstash、Kibana 三个开源软件产品首字母的缩写，它们三个通常配合使用，所以被称为 ELK Stack，它的架构可以用下面的图片来描述。
 
-![Elasticsearch-Logstash-Kibana](https://cdn-images-1.medium.com/max/1600/1*mwSvtVy_qGz0nTjaYbvwpw.png)
+![Elasticsearch-Logstash-Kibana](./1_mwSvtVy_qGz0nTjaYbvwpw.png)
 
 这三个软件的功能也各不相同。
 
@@ -36,7 +36,7 @@ ELK 是 Elasticsearch、Logstash、Kibana 三个开源软件产品首字母的�
 
 Beats 将收集到的数据发送到 Logstash，经过 Logstash 解析、过滤后，再将数据发送到 Elasticsearch，最后由 Kibana 展示，架构就变成下面这张图里描述的了。
 
-![Beats-Elasticsearch-Logstash-Kibana](https://logz.io/wp-content/uploads/2018/08/image21-1024x328.png)
+![Beats-Elasticsearch-Logstash-Kibana](./image21-1024x328.png)
 
 # Graphite
 
@@ -48,7 +48,7 @@ Graphite 的组成主要包括三部分：Carbon、Whisper、Graphite-Web，它�
 
 - Graphite-Web：一个 Web App，其主要功能绘制报表与展示，即数据展示。为了保证 Graphite-Web 能及时绘制出图形，Carbon 在将数据写入 Whisper 存储的同时，会在 carbon-cache 中同时写入一份数据，Graphite-Web 会先查询 carbon-cache，如果没有再查询 Whisper 存储。
 
-![graphite](https://graphiteapp.org/img/architecture_diagram.png)
+![graphite](./architecture_diagram.png)
 
 也就是说 Carbon 负责数据处理，Whisper 负责数据存储，Graphite-Web 负责数据展示，可见 Graphite 自身并不包含数据采集组件，但可以接入[`StatsD`](https://github.com/etsy/statsd)等开源数据采集组件来采集数据，再传送给 Carbon。
 
@@ -56,7 +56,7 @@ Graphite 的组成主要包括三部分：Carbon、Whisper、Graphite-Web，它�
 
 TICK 是 Telegraf、InfluxDB、Chronograf、Kapacitor 四个软件首字母的缩写，是由 InfluxData 开发的一套开源监控工具栈，因此也叫作 TICK Stack，它的架构可以看用下面这张图来描述。
 
-![Telegraf-InfluxDB-Chronograf-Kapacitor](https://static001.geekbang.org/resource/image/6e/35/6e5c85e68f0eff409f70f17f846d5335.png)
+![Telegraf-InfluxDB-Chronograf-Kapacitor](./6e5c85e68f0eff409f70f17f846d5335.png)
 
 从这张图可以看出，其中 Telegraf 负责数据收集，InfluxDB 负责数据存储，Chronograf 负责数据展示，Kapacitor 负责数据告警。
 
@@ -64,7 +64,7 @@ TICK 是 Telegraf、InfluxDB、Chronograf、Kapacitor 四个软件首字母的�
 
 还有一种比较有名的时间序数据库解决方案 Prometheus，它是一套开源的系统监控报警框架，受 Google 的集群监控系统 Borgmon 启发，由工作在 SoundCloud 的 Google 前员工在 2012 年创建，后来作为社区开源项目进行开发，并于 2015 年正式发布，2016 年正式加入 CNCF（Cloud Native Computing Foundation），成为受欢迎程度仅次于 Kubernetes 的项目，它的架构可以用下图来描述。
 
-![prometheus](https://prometheus.io/assets/architecture.png)
+![prometheus](./architecture.png)
 
 从这张图可以看出，Prometheus 主要包含下面几个组件：
 

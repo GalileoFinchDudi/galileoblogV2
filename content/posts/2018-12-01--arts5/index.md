@@ -45,7 +45,7 @@ public void merge(int[] nums1, int m, int[] nums2, int n) {
 
 本文用一个简单的例子解释什么是 CDN，以及它的好处。
 
-`CDN`或`Content Delivery Networks`通常用于分发静态资源，如图像，视频和客户端代码（CSS和JavaScript）。由于静态网站完全由静态资源（包括HTML页面）组成，因此可能通过CDN服务来构建整个网站！
+`CDN`通常用于分发静态资源，如图像，视频和客户端代码（CSS和JavaScript）。由于静态网站完全由静态资源（包括HTML页面）组成，因此可能通过CDN服务来构建整个网站！
 
 在本文中，我们将探讨为什么您应该使用CDN来托管您的静态站点，以及如何使用Netlify来实现它。Netlify使用CDN轻松部署和托管您的静态站点。
 

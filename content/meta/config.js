@@ -1,7 +1,7 @@
 module.exports = {
-  siteTitle: "HeroBlog - a GatsbyJS starter", // <title>
-  shortSiteTitle: "HeroBlog - GatsbyJS starter", // <title> ending for posts and pages
-  siteDescription: "HeroBlog is a GatsbyJS starter.",
+  siteTitle: "GalileoBlog", // <title>
+  shortSiteTitle: "GalileoBlog", // <title> ending for posts and pages
+  siteDescription: "Galileo blog",
   siteUrl: "https://galileofinch.com",
   // pathPrefix: "",
   siteImage: "preview.jpg",
@@ -16,8 +16,8 @@ module.exports = {
   headerSubTitle: "galileo blog version 2",
 
   /* manifest.json */
-  manifestName: "HeroBlog - a GatsbyJS starter",
-  manifestShortName: "HeroBlog", // max 12 characters
+  manifestName: "GalileoBlog - a GatsbyJS starter",
+  manifestShortName: "GalileoBlog", // max 12 characters
   manifestStartUrl: "/index.html",
   manifestBackgroundColor: "white",
   manifestThemeColor: "#666",

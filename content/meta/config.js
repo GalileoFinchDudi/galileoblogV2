@@ -13,7 +13,7 @@ module.exports = {
 
   /* info */
   headerTitle: "Galileo Finch",
-  headerSubTitle: "galileo blog version 2",
+  headerSubTitle: "go big or go home",
 
   /* manifest.json */
   manifestName: "GalileoBlog - a GatsbyJS starter",

@@ -1,5 +1,5 @@
 ---
-title: ARTS 6
+title: ARTS 7
 author: Galileo Finch
 category: "arts"
 cover: laura-college-190105-unsplash.jpg

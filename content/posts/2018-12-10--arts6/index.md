@@ -1,5 +1,5 @@
 ---
-title: ARTS 7
+title: ARTS 6
 author: Galileo Finch
 category: "arts"
 cover: sharon-mccutcheon-532782-unsplash.jpg

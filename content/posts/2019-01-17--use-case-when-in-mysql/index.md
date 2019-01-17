@@ -1,7 +1,7 @@
 ---
 title: Mysql中使用case函数修改不同表的表数据
 author: Galileo Finch
-category: "MySql Sql"
+category: "MySql", "Sql"
 cover: caspar-camille-rubin-224229-unsplash.jpg
 ---
 
